@@ -20,14 +20,14 @@ img {
 
 .footer {
 	position: fixed;
-	left: 0;
-	bottom: 0;
+	left: 7px !important;
+	bottom: 1px !important;
 	width: 100%;
-	background-color: #cccfff;
 	color: black;
 	font-weight: bold;
 	font-family: sans-serif;
-	text-align: center;
+	text-align: left;
+	font-size: auto;
 }
 
 a {
