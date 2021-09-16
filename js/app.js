@@ -30,4 +30,9 @@ function getImg() {
 
 			getRand();
 		});
+
+	document.getElementById("getBtn").disabled = true;
+	setTimeout(function () {
+		document.getElementById("getBtn").disabled = false;
+	}, 1000);
 }
